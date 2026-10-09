@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36cf48ce71e82ec46a9588e4bf8534b2, type: 3}
+  m_Name: Apple_Date
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDataSO
+  itemID: 1
+  itemName: Apple
+  itemType: 2
+  description: "A fresh, juicy apple. Eat it to restore some hunger."
+  itemIcon: {fileID: -724465121, guid: 03c650fc87af4f54c8ef35288cd06ed2, type: 3}
+  physicalPrefab: {fileID: 1829371231341652, guid: 426b44a7575f71e479fab4f4e8431989, type: 3}
+  pickupInHand: {fileID: 1829371231341652, guid: 426b44a7575f71e479fab4f4e8431989, type: 3}
+  handPositionOffset: {x: 0, y: 0, z: 0}
+  handRotationOffset: {x: 0, y: 0, z: 0}
+  handScale: {x: 10, y: 10, z: 10}
+  isStackable: 1
+  maxStackSize: 64
+  hasDurability: 0
+  maxDurability: 100
+  healthRestore: 10
+  hungerRestore: 10
+  thirstRestore: 10

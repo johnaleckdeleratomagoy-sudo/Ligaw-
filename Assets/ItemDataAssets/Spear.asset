@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36cf48ce71e82ec46a9588e4bf8534b2, type: 3}
+  m_Name: Spear
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDataSO
+  itemID: 11
+  itemName: Spear
+  itemType: 1
+  description: "A sharpened wooden spear. Good for hunting and self-defense."
+  itemIcon: {fileID: -1457191519, guid: 9a7d90d6794da7f499b6127aa76d601c, type: 3}
+  physicalPrefab: {fileID: 4265821754035384468, guid: 67395cb3330a2fa4dbd2e4d22c4fcbfe, type: 3}
+  pickupInHand: {fileID: 4265821754035384468, guid: 67395cb3330a2fa4dbd2e4d22c4fcbfe, type: 3}
+  handPositionOffset: {x: -0.117, y: 0.535, z: -0.004}
+  handRotationOffset: {x: 6.885, y: -7.739, z: 194.257}
+  handScale: {x: 1, y: 1, z: 1}
+  isStackable: 0
+  maxStackSize: 1
+  hasDurability: 1
+  maxDurability: 100
+  healthRestore: 0
+  hungerRestore: 0
+  thirstRestore: 0

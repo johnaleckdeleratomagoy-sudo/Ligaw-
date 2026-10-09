@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36cf48ce71e82ec46a9588e4bf8534b2, type: 3}
+  m_Name: Bed
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDataSO
+  itemID: 3
+  itemName: Bed
+  itemType: 4
+  description: "A place to rest. Sleep through the night to recover and stay safe."
+  itemIcon: {fileID: 1695089866, guid: 96666530a943fb94bb94569a11134931, type: 3}
+  physicalPrefab: {fileID: 1202656555221042, guid: df32d079362cd4d408b19a6dc52ee968, type: 3}
+  pickupInHand: {fileID: 1202656555221042, guid: df32d079362cd4d408b19a6dc52ee968, type: 3}
+  handPositionOffset: {x: 0, y: 0, z: 0}
+  handRotationOffset: {x: 0, y: 0, z: 0}
+  handScale: {x: 1, y: 1, z: 1}
+  isStackable: 1
+  maxStackSize: 64
+  hasDurability: 0
+  maxDurability: 100
+  healthRestore: 0
+  hungerRestore: 0
+  thirstRestore: 0

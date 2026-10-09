@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36cf48ce71e82ec46a9588e4bf8534b2, type: 3}
+  m_Name: Item_Axe
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDataSO
+  itemID: 6
+  itemName: Axe
+  itemType: 1
+  description: "A sharp axe for chopping trees and gathering logs."
+  itemIcon: {fileID: -1973340774, guid: ce7f3c08e6a987342b53d820907e3523, type: 3}
+  physicalPrefab: {fileID: 194480, guid: 3c9dc0c4ffa3222489e92d7a4026c455, type: 3}
+  pickupInHand: {fileID: 194480, guid: 3c9dc0c4ffa3222489e92d7a4026c455, type: 3}
+  handPositionOffset: {x: 0.0093, y: 0.0155, z: -0.0234}
+  handRotationOffset: {x: -205.602, y: -350.448, z: 360.449}
+  handScale: {x: 2, y: 2, z: 2}
+  isStackable: 0
+  maxStackSize: 1
+  hasDurability: 1
+  maxDurability: 100
+  healthRestore: 0
+  hungerRestore: 0
+  thirstRestore: 0

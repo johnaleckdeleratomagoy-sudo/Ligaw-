@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36cf48ce71e82ec46a9588e4bf8534b2, type: 3}
+  m_Name: Meat
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDataSO
+  itemID: 8
+  itemName: Meat
+  itemType: 0
+  description: "A raw cut of meat. Cook it over a fire before eating to stay safe."
+  itemIcon: {fileID: -1106635266, guid: 814d4113a3794a448985525bf33217dc, type: 3}
+  physicalPrefab: {fileID: 565888022893673665, guid: cc2f73682626b9646917cb98a18118b8, type: 3}
+  pickupInHand: {fileID: 565888022893673665, guid: cc2f73682626b9646917cb98a18118b8, type: 3}
+  handPositionOffset: {x: 0, y: 0, z: 0}
+  handRotationOffset: {x: 0, y: 0, z: 0}
+  handScale: {x: 7, y: 7, z: 7}
+  isStackable: 1
+  maxStackSize: 64
+  hasDurability: 0
+  maxDurability: 100
+  healthRestore: 20
+  hungerRestore: 20
+  thirstRestore: 20

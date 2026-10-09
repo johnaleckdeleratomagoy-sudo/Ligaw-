@@ -1,0 +1,42 @@
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# IDE
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+
+# OS
+desktop.ini
+Thumbs.db
+
+# Third-party asset packs and oversized media (not part of the source code)
+/Assets/*
+!/Assets/*.meta
+!/Assets/Scripts/
+!/Assets/Scenes/
+!/Assets/Resources/
+!/Assets/UI/
+!/Assets/Audio/
+!/Assets/PREFAB/
+!/Assets/Recipes/
+!/Assets/ItemDataAssets/
+!/Assets/CraftingSystem/
+!/Assets/Settings/
+!/Assets/Pictures/
+!/Assets/Material/
+!/Assets/DynamicWeatherSystem/
+!/Assets/InputSystem_Actions.inputactions
+*.mp4
+*.cubemap

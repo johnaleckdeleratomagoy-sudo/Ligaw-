@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36cf48ce71e82ec46a9588e4bf8534b2, type: 3}
+  m_Name: Bear_Meat
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDataSO
+  itemID: 2
+  itemName: Bear Meat
+  itemType: 2
+  description: "A thick cut of bear meat. Hearty and filling when cooked."
+  itemIcon: {fileID: 1433449743, guid: a7388d125e60e5d449bcdb8090a63c05, type: 3}
+  physicalPrefab: {fileID: 4651524620516496215, guid: 288659769220f8a4a821ecf326b3d915, type: 3}
+  pickupInHand: {fileID: 4651524620516496215, guid: 288659769220f8a4a821ecf326b3d915, type: 3}
+  handPositionOffset: {x: 0, y: 0, z: 0}
+  handRotationOffset: {x: 0, y: 0, z: 0}
+  handScale: {x: 1, y: 1, z: 1}
+  isStackable: 1
+  maxStackSize: 64
+  hasDurability: 0
+  maxDurability: 100
+  healthRestore: 20
+  hungerRestore: 20
+  thirstRestore: 20

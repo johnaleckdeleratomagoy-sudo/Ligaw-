@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36cf48ce71e82ec46a9588e4bf8534b2, type: 3}
+  m_Name: Campfire_ItemData
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDataSO
+  itemID: 4
+  itemName: Campfire
+  itemType: 4
+  description: "A campfire that provides warmth and light and lets you cook food. Keeps the dark away."
+  itemIcon: {fileID: -1727407879, guid: adc0095fa8906004388096d8cb02fbb3, type: 3}
+  physicalPrefab: {fileID: 113940, guid: 9f34afb08d4d48c4b860e0b7634ce5b4, type: 3}
+  pickupInHand: {fileID: 3139200245350685335, guid: 66e4d97b18f8339488af5c062227b07b, type: 3}
+  handPositionOffset: {x: 0.01873985, y: 0.04396505, z: -0.01000807}
+  handRotationOffset: {x: 3.319, y: 20.938, z: 96.181}
+  handScale: {x: 0.3, y: 0.3, z: 0.3}
+  isStackable: 0
+  maxStackSize: 1
+  hasDurability: 1
+  maxDurability: 100
+  healthRestore: 0
+  hungerRestore: 0
+  thirstRestore: 0

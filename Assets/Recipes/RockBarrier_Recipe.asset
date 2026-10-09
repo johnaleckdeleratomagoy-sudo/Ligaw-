@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89dbff1b2b125fc49bf747503678cbd8, type: 3}
+  m_Name: RockBarrier_Recipe
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  ingredients:
+  - item: {fileID: 11400000, guid: 1943f8c08cf90e844a6018896540d1f8, type: 2}
+    amount: 1
+    requiresWorkbench: 0
+  result: {fileID: 11400000, guid: 35c61ea3ae703944fb75d5cc928a3573, type: 2}
+  resultAmount: 1

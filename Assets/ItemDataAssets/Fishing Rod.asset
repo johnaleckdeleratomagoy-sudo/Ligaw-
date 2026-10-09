@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36cf48ce71e82ec46a9588e4bf8534b2, type: 3}
+  m_Name: Fishing Rod
+  m_EditorClassIdentifier: Assembly-CSharp::ItemDataSO
+  itemID: 12
+  itemName: FIshing Rod
+  itemType: 1
+  description: "A simple rod and line. Use it near water to catch fish."
+  itemIcon: {fileID: -1881780551, guid: e934cb84d6c166d4c940058404ddd5ee, type: 3}
+  physicalPrefab: {fileID: 1572702650501816036, guid: 58ee94a4a355a6143a1411022aec308d, type: 3}
+  pickupInHand: {fileID: 1572702650501816036, guid: 58ee94a4a355a6143a1411022aec308d, type: 3}
+  handPositionOffset: {x: 0.042, y: 0.285, z: -0.106}
+  handRotationOffset: {x: 75.252, y: 0.564, z: 271.475}
+  handScale: {x: 1, y: 1, z: 1}
+  isStackable: 0
+  maxStackSize: 1
+  hasDurability: 0
+  maxDurability: 100
+  healthRestore: 10
+  hungerRestore: 20
+  thirstRestore: 0
